@@ -1,8 +1,4 @@
-variable "project_name" {
-  type = string
-}
-
-variable "env" {
+variable "name" {
   type = string
 }
 
