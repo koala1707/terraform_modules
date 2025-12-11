@@ -11,3 +11,5 @@ override.tf.json
 
 # macOS
 .DS_Store
+
+README.md
