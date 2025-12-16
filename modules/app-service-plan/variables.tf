@@ -1,10 +1,14 @@
-variable "location" {
+variable "name" {
   type = string
+  description = name of the App Service Plan
 }
 
-variable "azurerm_service_plan" {
-  type = object({
-    name = string
-    sku = string
-  })
+variable "location" {
+  type = string
+  description = Azure region of the App Service Plan
+}
+
+variable "sku" {
+  type = string
+  description = sku of the App Service Plan
 }
