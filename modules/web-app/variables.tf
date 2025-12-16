@@ -9,12 +9,12 @@ variable "resource_group_name" {
   description = "name of the resrouce group"
 }
 
-variable "location" {
+variable "asp-location" {
   type = string
-  description = "Azure region for deployment"
+  description = "Azure region of the App Service Plan"
 }
 
-variable "service_plan_id" {
+variable "asp_id" {
   type = string
   description = "id of the App Service Plan"
 }
