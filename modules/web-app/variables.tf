@@ -6,17 +6,17 @@ variable env {
 
 variable resource_group_name {
   type = string
-  description = name of the resrouce group
+  description = "name of the resrouce group"
 }
 
 variable location {
   type = string
-  description = Azure region for deployment
+  description = "Azure region for deployment"
 }
 
 variable service_plan_id {
   type = string
-  description = id of the App Service Plan
+  description = "id of the App Service Plan"
 }
 
 variable webapp_name {
