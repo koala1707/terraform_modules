@@ -7,7 +7,7 @@ resource "azurerm_linux_web_app" "webapp" {
   site_config {
     always_on = false
     application_stack {
-      node_version = "22-lts"
+      node_version = "16-lts"
     }
   }
 
