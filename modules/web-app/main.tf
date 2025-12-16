@@ -1,8 +1,8 @@
 resource "azurerm_linux_web_app" "webapp" {
   name                = var.webapp_name
-  resource_group_name = azurerm_resource_group.rg.name
-  location            = azurerm_service_plan.asp.location
-  service_plan_id     = azurerm_service_plan.asp.id
+  resource_group_name = var.resource_group_name
+  location            = var.asp_location
+  service_plan_id     = var.asp_id
 
   site_config {
     always_on = false
