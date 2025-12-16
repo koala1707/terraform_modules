@@ -17,7 +17,6 @@ resource "azurerm_linux_web_app" "webapp" {
 
   app_settings = {
     WEBSITE_RUN_FROM_PACKAGE = 1
-    ENVIRONMENT = var.env
   }
 
   https_only = true
