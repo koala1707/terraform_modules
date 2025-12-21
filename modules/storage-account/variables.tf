@@ -37,3 +37,8 @@ variable "account_replication_type" {
     error_message = "Replication types: LRS, GRS, RAGRS, or ZRS."
   }
 }
+
+variable "min_tls_version" {
+  type = string
+  description = "minimum Transport Layer Security version"
+}
