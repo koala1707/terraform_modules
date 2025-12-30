@@ -1,3 +1,8 @@
+variable "storage_account_name" {
+  type = string
+  description = "name of the storage account"
+}
+
 variable "name" {
   type = string
   description = "name of the storage container"
