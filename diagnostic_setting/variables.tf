@@ -15,5 +15,5 @@ variable "storage_account_id" {
 
 variable "log_categories" {
   type = list(string)
-  description = list of diagnostic log categories
+  description = "list of diagnostic log categories"
 }
