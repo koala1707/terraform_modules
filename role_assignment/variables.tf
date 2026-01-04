@@ -2,7 +2,7 @@ variable "role_definition" {
   type = string
   description = "rbac role name to assign"
   validation {
-    condition = ([
+    condition = contains([
       "Reader",
       "Key Vault Administrator",
       "Key Vault Secrets User",
